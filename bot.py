@@ -69,7 +69,7 @@ async def on_member_join(member):
                 f"ようこそ {role.mention} の皆さん！\n"
                 "「お喋りを始める前に、もういくつかステップがあります。」と出ていると思うので、\n"
                 "「了解」を押してルールに同意してください。\n"
-                "その後、https://discord.com/channels/1165775639798878288/1165775640918773843 で認証をして、みんなとお喋りをしましょう！"
+                "その後、https://discord.com/channels/1165775639798878288/1165775640918773843 で認証をして、みんなとお喋りをしましょう！！"
             )
             can_send_message = False
             await asyncio.sleep(60)  # 60秒間待機
